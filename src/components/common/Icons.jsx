@@ -1,7 +1,8 @@
 // ============================ NAVBAR ============================
-export const NavBtnArrow = () => {
+export const NavBtnArrow = (props) => {
   return (
     <svg
+      className={`${props.className}`}
       width="14"
       height="19"
       viewBox="0 0 14 19"

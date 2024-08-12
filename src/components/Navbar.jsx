@@ -43,14 +43,16 @@ const Navbar = () => {
               </li>
             ))}
             <li className="lg:hidden block">
-              <button className="bg-off-blue text-white py-[6px] pl-4 pr-3 rounded-full border-[3px] border-solid border-off-blue flex gap-[7px] items-center font-Saira text-lg font-medium leading-154 text-shadow-nav-links">
-                Find More <NavBtnArrow />
+              <button className="bg-off-blue group text-white py-[6px] pl-4 pr-3 rounded-full border-[3px] border-solid border-off-blue flex gap-[7px] items-center font-Saira text-lg font-medium leading-154 text-shadow-nav-links">
+                Find More{" "}
+                <NavBtnArrow className="group-hover:translate-x-1 transition-all ease-linear duration-300" />
               </button>
             </li>
           </ul>
           <div className="lg:block hidden">
-            <button className="bg-off-blue text-white py-[6px] pl-4 pr-3 rounded-full border-[3px] border-solid border-off-blue flex gap-[7px] items-center font-Saira text-lg font-medium leading-154 text-shadow-nav-links">
-              Find More <NavBtnArrow />
+            <button className="bg-off-blue text-white group py-[6px] pl-4 pr-3 rounded-full border-[3px] border-solid border-off-blue flex gap-[7px] items-center font-Saira text-lg font-medium leading-154 text-shadow-nav-links">
+              Find More{" "}
+              <NavBtnArrow className="group-hover:translate-x-1 transition-all ease-linear duration-300" />
             </button>
           </div>
           <div
