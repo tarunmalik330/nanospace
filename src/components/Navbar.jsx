@@ -38,7 +38,7 @@ const Navbar = () => {
                   to={obj.url}
                   className="font-Saira font-normal text-base text-white leading-154"
                 >
-                  {obj.link}
+                  {obj.title}
                 </Link>
               </li>
             ))}

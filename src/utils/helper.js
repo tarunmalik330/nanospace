@@ -3,23 +3,23 @@ import appstore from "../assets/images/png/app-store.png";
 import googleplay from "../assets/images/png/google-play.png";
 export const NAV_LINK = [
   {
-    link: "Home",
+    title: "Home",
     url: "#home",
   },
   {
-    link: "About",
+    title: "About",
     url: "#about",
   },
   {
-    link: "AI-UGC",
+    title: "AI-UGC",
     url: "#ai-ugc",
   },
   {
-    link: "Marketplace",
+    title: "Marketplace",
     url: "#marketplace",
   },
   {
-    link: "More",
+    title: "More",
     url: "#more",
   },
 ];
