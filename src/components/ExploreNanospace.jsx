@@ -12,7 +12,7 @@ const ExploreNanospace = () => {
       <div className="bg-gradient-explore absolute sm:h-[204px] h-[170px] left-0 w-full sm:top-[-20%] top-[-16%]"></div>
       <div className="container xl:max-w-[1347px] mx-auto px-4">
         <div className="flex flex-row justify-end items-center flex-wrap relative">
-          <div className="bg-dark-blue w-[438px] h-[695px] absolute -bottom-52 xl:left-[12%] left-0 opacity-30 blur-[200px] lg:block hidden"></div>
+          <div className="bg-dark-blue w-[438px] h-[548px] absolute -bottom-52 xl:left-[12%] left-0 opacity-30 blur-[200px] lg:block hidden"></div>
           <div className="max-lg:w-full lg:absolute xl:left-[15%] left-0 xl:bottom-[-78%] bottom-[-21%] max-lg:flex max-lg:justify-center">
             <img
               src={nanospacegirl}
