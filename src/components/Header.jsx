@@ -20,7 +20,7 @@ const Header = () => {
           {HEADER_SOCIAL_LINK.map((obj, id) => (
             <Link key={id} to={obj.url}>
               <img
-                className="w-full max-w-[119px]"
+                className="w-full max-w-[119px] max-h-[35px]"
                 src={obj.img}
                 alt={obj.title}
               />

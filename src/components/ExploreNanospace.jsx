@@ -24,7 +24,7 @@ const ExploreNanospace = () => {
             <img
               src={explorerobo}
               alt="explorerobo"
-              className="absolute w-full md:max-w-[256px] sm:max-w-[210px] max-w-[140px] lg:top-[-30%] sm:top-[-23%] top-[-10%] right-0 z-[2]"
+              className="absolute w-full max-h-[256px] md:max-w-[256px] sm:max-w-[210px] max-w-[140px] lg:top-[-30%] sm:top-[-23%] top-[-10%] right-0 z-[2]"
             />
 
             <div className="bg-gradient-white p-[1px]">
@@ -34,7 +34,7 @@ const ExploreNanospace = () => {
                   <img
                     src={logo}
                     alt="logo"
-                    className="w-full md:max-w-[234px] max-w-[170px] mb-6"
+                    className="w-full max-h-[73px] md:max-w-[234px] max-w-[170px] mb-6"
                   />
                 </Link>
                 <p className="normal-case md:text-custom-md sm:text-3xl text-2xl text-white font-bold font-Orbitron leading-120 mb-4">
