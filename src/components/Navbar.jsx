@@ -13,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="bg-off-white shadow-nav lg:py-0 py-4">
+    <div className="bg-off-white backdrop-blur-[20px] shadow-nav lg:py-0 py-4">
       <div className="container xl:max-w-[1304px] px-4 mx-auto">
         <div className="flex items-center justify-between">
           <Link to="/">
