@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="bg-header-bg bg-center bg-no-repeat lg:bg-size-100 bg-cover xl:min-h-screen relative">
-      <div className="bg-gradient-bg w-full sm:h-[204px] h-[80px] absolute left-0 sm:bottom-0 bottom-[9%]"></div>
+    <div className="bg-header-bg bg-center bg-no-repeat lg:bg-size-100 bg-cover lg:min-h-screen 2xl:min-h-[810px] flex flex-col relative">
+      <div className="bg-gradient-bg w-full sm:h-[204px] h-[160px] absolute left-0 sm:bottom-0 bottom-[5%]"></div>
       <Navbar />
-      <div className="lg:pt-[182px] xl:pb-0 lg:pb-[259px] md:py-[150px] py-[120px] flex flex-col px-6 relative z-10">
+      <div className="grow items-center justify-center lg:pt-0 py-[150px] flex flex-col px-6 relative z-10">
         <h1 className="font-bold leading-120 text-white lg:text-custom-xl md:text-custom-lg sm:text-custom-md text-custom-xsm text-center lg:max-w-[801px] mx-auto font-Orbitron mb-4">
           Save NANOSPACE World from Enemies
         </h1>

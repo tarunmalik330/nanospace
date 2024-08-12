@@ -35,12 +35,12 @@ module.exports = {
         154: "154%",
       },
       backgroundImage: {
-        "header-bg": "url('assets/images/png/header-bg.png')",
+        "header-bg": "url('assets/images/webp/header-bg.webp')",
         "gradient-bg":
           "linear-gradient(180deg, rgba(7, 11, 27, 0) 7.35%, #111111 75.74%)",
         "gradient-white":
           "linear-gradient(228.77deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 41.25%, rgba(255, 255, 255, 0) 63.78%, rgba(255, 255, 255, 0) 97.97%)",
-        "explore-bg": "url('assets/images/png/bg-explore.png')",
+        "explore-bg": "url('assets/images/webp/bg-explore.webp')",
         "gradient-explore":
           "linear-gradient(180deg, rgba(17, 17, 17, 0) 7.35%, #111111 75.74%)",
       },

@@ -1,6 +1,6 @@
-import discord from "../assets/images/png/discord.png";
-import appstore from "../assets/images/png/app-store.png";
-import googleplay from "../assets/images/png/google-play.png";
+import discord from "../assets/images/webp/discord.webp";
+import appstore from "../assets/images/webp/app-store.webp";
+import googleplay from "../assets/images/webp/google-play.webp";
 export const NAV_LINK = [
   {
     title: "Home",

@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../assets/images/png/nanospace-logo.png";
-import nanospacegirl from "../assets/images/png/explore-nanospace.png";
-import explorerobo from "../assets/images/png/explore-robo.png";
+import logo from "../assets/images/webp/nanospace-logo.webp";
+import nanospacegirl from "../assets/images/webp/explore-nanospace.webp";
+import explorerobo from "../assets/images/webp/explore-robo.webp";
 import { Link } from "react-router-dom";
 import { EXPLORE_CONTENT } from "../utils/helper";
 import { ExploreCircle } from "./common/Icons";
@@ -20,7 +20,7 @@ const ExploreNanospace = () => {
               className="w-full xl:max-w-[750px] lg:max-w-[600px] max-w-[550px]"
             />
           </div>
-          <div className="lg:w-8/12 w-full lg:pt-0 pt-7 relative">
+          <div className="lg:w-8/12 w-full lg:pt-0 pt-7 relative lg:mt-0 sm:mt-[-150px] mt-[-110px]">
             <img
               src={explorerobo}
               alt="explorerobo"
@@ -43,7 +43,7 @@ const ExploreNanospace = () => {
                 <p className="font-Saira font-normal md:text-xl text-base text-white leading-normal mb-[10px]">
                   Find best in class heart-pounding idle RPG experience
                 </p>
-                <p className="font-Saira font-semibold md:text-xl text-base text-white leading-normal mb-[15px]">
+                <p className="font-Saira font-semibold md:text-xl text-base text-light-grey leading-normal mb-[15px]">
                   Adorable, Collectible Anime-Inspired Character
                 </p>
                 <div className="">
