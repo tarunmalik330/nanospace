@@ -10,17 +10,17 @@ const ExploreNanospace = () => {
   return (
     <div className="bg-explore-bg bg-center lg:bg-size-100 bg-cover bg-no-repeat lg:pt-[179px] lg:pb-[186px] py-[60px] relative lg:overflow-hidden">
       <div className="bg-gradient-explore absolute sm:h-[204px] h-[170px] left-0 w-full sm:top-[-20%] top-[-16%]"></div>
-      <div className="container xl:max-w-[1347px] mx-auto px-4">
+      <div className="container xl:max-w-[1124px] mx-auto px-4">
         <div className="flex flex-row justify-end items-center flex-wrap relative">
-          <div className="bg-dark-blue w-[438px] h-[548px] absolute -bottom-52 xl:left-[12%] left-0 opacity-30 blur-[200px] lg:block hidden"></div>
-          <div className="max-lg:w-full lg:absolute xl:left-[15%] left-0 xl:bottom-[-78%] bottom-[-21%] max-lg:flex max-lg:justify-center">
+          <div className="bg-dark-blue w-[438px] h-[548px] absolute -bottom-52 xl:left-[-12%] left-0 opacity-30 blur-[200px] lg:block hidden"></div>
+          <div className="max-lg:w-full lg:absolute xl:left-[-11%] lg:left-[-5%] left-0 xl:bottom-[-74%] lg:bottom-[-27%] bottom-[-21%] max-lg:flex max-lg:justify-center">
             <img
               src={nanospacegirl}
               alt="nanospacegirl"
-              className="w-full xl:max-w-[750px] max-w-[550px]"
+              className="w-full xl:max-w-[750px] lg:max-w-[600px] max-w-[550px]"
             />
           </div>
-          <div className="xl:w-6/12 lg:w-8/12 w-full lg:pt-0 pt-7 relative">
+          <div className="lg:w-8/12 w-full lg:pt-0 pt-7 relative">
             <img
               src={explorerobo}
               alt="explorerobo"
